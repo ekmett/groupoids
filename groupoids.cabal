@@ -1,6 +1,6 @@
 name:          groupoids
 category:      Control, Categories
-version:       0.1.1.2
+version:       0.2
 license:       BSD3
 cabal-version: >= 1.6
 license-file:  LICENSE
@@ -24,7 +24,7 @@ library
 
   exposed-modules:
     Data.Groupoid
-    Data.Groupoid.Isomorphism
+    Data.Isomorphism
 
   ghc-options:      -Wall
 --  if impl(ghc)
